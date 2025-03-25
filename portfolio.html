@@ -45,9 +45,11 @@
             padding-top: 35px;
         }
 
-        #portfolio {
+        main {
             display: flex;
             justify-content: center;
+
+
         }
 
         .filters {
@@ -55,6 +57,16 @@
             flex-direction: row;
             padding-top: 15px;
             padding-bottom: 15px;
+        }
+
+        .li_in_filters {
+            padding: 10px;
+        }
+
+        .a_in_filters {
+            padding: 5px;
+            background-color: rgb(236, 237, 239);
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -75,18 +87,16 @@
         </ul>
     </header>
     <main>
-        <section id="portfolio">
-            <section>
-                <ul class="filters">
-                    <li class="li_in_filters"><a href="./index.html">Усі</a></li>
-                    <li class="li_in_filters"><a href="./index.html">Веб-сайти</a></li>
-                    <li class="li_in_filters"><a href="./index.html">Додатки</a></li>
-                    <li class="li_in_filters"><a href="./index.html">Дизайн</a></li>
-                    <li class="li_in_filters"><a href="./index.html">Маркетинг</a></li>
-                </ul>
-            </section>
+        <section>
+            <ul class="filters">
+                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Усі</a></li>
+                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Веб-сайти</a></li>
+                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Додатки</a></li>
+                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Дизайн</a></li>
+                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Маркетинг</a></li>
+            </ul>
             <section class="">
-
+                
             </section>
         </section>
     </main>
