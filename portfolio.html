@@ -47,9 +47,7 @@
 
         main {
             display: flex;
-            justify-content: center;
-
-
+            flex-direction: column;
         }
 
         .filters {
@@ -57,6 +55,7 @@
             flex-direction: row;
             padding-top: 15px;
             padding-bottom: 15px;
+            justify-content: center;
         }
 
         .li_in_filters {
@@ -67,6 +66,12 @@
             padding: 5px;
             background-color: rgb(236, 237, 239);
             border-radius: 5px;
+        }
+
+        .main_filters {
+            /* display: flex; */
+            flex-direction:row;
+            justify-items: center;
         }
     </style>
 </head>
@@ -87,17 +92,67 @@
         </ul>
     </header>
     <main>
-        <section>
-            <ul class="filters">
-                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Усі</a></li>
-                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Веб-сайти</a></li>
-                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Додатки</a></li>
-                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Дизайн</a></li>
-                <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Маркетинг</a></li>
+        <ul class="filters">
+            <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Усі</a></li>
+            <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Веб-сайти</a></li>
+            <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Додатки</a></li>
+            <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Дизайн</a></li>
+            <li class="li_in_filters"><a class="a_in_filters" href="./index.html">Маркетинг</a></li>
+        </ul>
+        <section class="main_filters">
+            <ul class="port_ul">
+                <li class="port_li">
+                    <img src="./port_img/laptop.jpg" alt="laptop">
+                    <p>Технокряк</p>
+                    <p>Веб-сайт</p>
+                </li>
+                <li class="port_li">
+                    <img src="./port_img/basketball.jpg" alt="basketball">
+                    <p>Постер New Orlean vs Golden Star</p>
+                    <p>Дизайн</p>
+                </li>
+                <li class="port_li">
+                    <img src="./port_img/seafood.jpg" alt="seafood">
+                    <p>Ресторан Seafood</p>
+                    <p>Додаток</p>
+                </li>
             </ul>
-            <section class="">
-                
-            </section>
+            <ul class="port_ul">
+                <li class="port_li">
+                    <img src="./port_img/headphones.jpg" alt="headphones">
+                    <p>Проєкт Prime</p>
+                    <p>Маркетинг</p>
+                </li>
+                <li class="port_li">
+                    <img src="./port_img/box.jpg" alt="box">
+                    <p>Проєкт Boxes</p>
+                    <p>Додаток</p>
+                </li>
+                <li class="port_li">
+                    <img src="./port_img/monitor.jpg" alt="monitor">
+                    <p>Inspiration has no Borders</p>
+                    <p>Веб-сайт</p>
+                </li>
+            </ul>
+            <ul class="port_ul">
+                <li class="port_li">
+                    <img src="./port_img/book.jpg" alt="book">
+                    <p>Видання Limited Edition</p>
+                    <p>Дизайн</p>
+                </li>
+                <li class="port_li">
+                    <img src="./port_img/tag.jpg" alt="tag">
+                    <p>Проєкт LAB</p>
+                    <p>Маркетинг</p>
+                </li>
+                <li class="port_li">
+                    <img src="./port_img/buisnes.jpg" alt="buisnes">
+                    <p>Growing Business</p>
+                    <p>Додаток</p>
+                </li>
+            </ul>
+
+
         </section>
     </main>
 </body>
