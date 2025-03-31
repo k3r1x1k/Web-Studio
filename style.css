@@ -1,0 +1,68 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.navik1 {
+    display: flex;
+    font-size: 25px;
+}
+
+.ln1 {
+    padding: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+#WebStudio {
+    font-size: 25px;
+    padding-top: 35px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+
+.li_in_filters {
+    padding: 10px;
+}
+
+.a_in_filters {
+    padding: 5px;
+    background-color: rgb(236, 237, 239);
+    border-radius: 5px;
+}
+
+.main_filters {
+
+    flex-direction: row;
+    justify-items: center;
+}
