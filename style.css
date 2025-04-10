@@ -1,68 +1,115 @@
-a {
+:root{
+ --main-h-color: aliceblue;
+ --main-h-bc:rgb(43, 43, 53);
+ --a-color: black;
+ --footer-a:rgba(255, 255, 255, 0.5);
+ --my-button-bc: rgb(64, 182, 237);
+}
+
+a{
     text-decoration: none;
-    color: black;
+    color: var(--a-color);
 }
 
-header {
+header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-
-ul {
-    list-style-type: none;
+ul{
+    list-style-type:  none;
 }
-
-nav {
+nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: blue;
 }
-
-.navik1 {
+.navik1{
     display: flex;
     font-size: 25px;
 }
+.ln1{
+    padding: 10px;
+}
+.main_h{
+    justify-items: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 7%;
+    font-size: 30px;
+    background-color:var(--main-h-bc);
+    color:var(--main-h-color);
+}
 
-.ln1 {
+#mybutton{
+    background-color: rgb(64, 182, 237);
+    width: 200px;
+    height: 40px;
+}
+
+.ln2{
     padding: 10px;
 }
 
-body {
+.s1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.s2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ln3{
+    padding: 20px;
+}
+.s3{
+    background-color: rgb(242, 241, 241);
+}
+
+body{
     margin: 0px;
+    font-family: "Roboto";
 }
 
-#WebStudio {
-    font-size: 25px;
-    padding-top: 35px;
+h2{
+    font-size: 27px;
+    padding-top: 50px;
+    text-align: center;
 }
 
-main {
+.ln4{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.we{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(43, 43, 53);
+    color: aliceblue;
+}
+
+footer>a{
+    color: var(--footer-a);
+}
+
+footer{
+    padding: 20px;
     display: flex;
     flex-direction: column;
 }
 
-.filters {
-    display: flex;
-    flex-direction: row;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    justify-content: center;
-}
-
-.li_in_filters {
-    padding: 10px;
-}
-
-.a_in_filters {
-    padding: 5px;
-    background-color: rgb(236, 237, 239);
-    border-radius: 5px;
-}
-
-.main_filters {
-
-    flex-direction: row;
-    justify-items: center;
+#WebStudio{
+    font-size: 25px;
+    padding-top: 35px;
 }
