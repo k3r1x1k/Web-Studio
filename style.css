@@ -4,6 +4,8 @@
  --a-color: black;
  --footer-a:rgba(255, 255, 255, 0.5);
  --my-button-bc: rgb(64, 182, 237);
+ --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
 }
 
 a{
@@ -24,14 +26,24 @@ nav{
     flex-direction: row;
     justify-content: space-around;
 }
-.navik1{
+.header_list{
     display: flex;
     font-size: 25px;
+    
 }
-.ln1{
+
+.header_nav{
     padding: 10px;
 }
+
+.header_nav > .header_nav_link :hover{
+    color: var(--my-button-bc);
+}
+
+
 .main_h{
+    text-align: center;
+    font-family: var(--font-family);
     justify-items: center;
     width: 100%;
     height: 400px;
@@ -42,38 +54,38 @@ nav{
 }
 
 #mybutton{
-    background-color: rgb(64, 182, 237);
+    background-color:var(--my-button-bc);
     width: 200px;
     height: 40px;
 }
 
-.ln2{
+.galery_items{
     padding: 10px;
 }
 
-.s1{
+.galery_list{
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 15px;
 }
 
-.s2{
+.works_list{
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-.ln3{
+.works_items{
     padding: 20px;
 }
-.s3{
-    background-color: rgb(242, 241, 241);
+.team{
+    background-color:var(--main-h-color);
 }
 
 body{
     margin: 0px;
-    font-family: "Roboto";
+    font-family: var(--font-family);
 }
 
 h2{
@@ -82,21 +94,17 @@ h2{
     text-align: center;
 }
 
-.ln4{
+.team_items{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    line-height: 0.5;
 }
 
-.we{
+.team_list{
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-
-footer{
-    background-color: rgb(43, 43, 53);
-    color: aliceblue;
 }
 
 footer>a{
@@ -107,9 +115,13 @@ footer{
     padding: 20px;
     display: flex;
     flex-direction: column;
+    background-color:var(--main-h-bc);
+    color:var(--main-h-color);
+    line-height: 2;
 }
 
 #WebStudio{
+    font-family: var(--second-family);
     font-size: 25px;
-    padding-top: 35px;
+    margin-top: 35px;
 }
