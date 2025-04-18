@@ -122,6 +122,13 @@ footer{
 
 #WebStudio{
     font-family: var(--second-family);
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
     margin-top: 35px;
+}
+
+.span_web{
+color: #000;
 }
