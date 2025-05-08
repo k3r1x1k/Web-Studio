@@ -14,7 +14,7 @@ body{
 }
 
 .container {
-    width: 936px;
+    width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     /* padding-left: 15px;
@@ -22,6 +22,12 @@ body{
     margin-left: auto;
     margin-right: auto; */
     outline: 1px solid red;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
 }
 
 a{
@@ -37,7 +43,7 @@ ul{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .header_list{
@@ -65,11 +71,13 @@ nav{
     text-align: center;
     justify-items: center;
     width: 100%;
-    height: 400px;
+    
     padding-top: 7%;
     font-size: 30px;
     background-color:var(--main-h-bc);
     color:var(--main-h-color);
+    padding-top: 200px;
+    padding-bottom: 210px;
 }
 
 #mybutton{
