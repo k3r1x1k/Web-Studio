@@ -86,15 +86,14 @@ nav{
     height: 40px;
 }
 
-.galery_items{
-    padding: 10px;
-}
+
 
 .galery_list{
     display: flex;
     flex-direction: row;
     justify-content: center;
     font-size: 15px;
+    gap: 30px;
 }
 
 .works_list{
