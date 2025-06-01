@@ -43,7 +43,7 @@ ul{
 header{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .header_list{
@@ -51,10 +51,11 @@ header{
     font-size: 25px;
     font-weight: 500;
 font-size: 14px;
+align-items: center;
 }
 
 .header_items{
-    padding: 10px;
+    margin: 10px;
 }
 
 
@@ -154,3 +155,8 @@ footer{
 .span_web{
 color: #000;
 }
+
+
+
+
+
