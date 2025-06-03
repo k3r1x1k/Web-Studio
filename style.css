@@ -6,6 +6,7 @@
  --my-button-bc: rgb(64, 182, 237);
  --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
+  --nav-bk: #F5F4FA;
 }
 
 body{
@@ -61,7 +62,6 @@ align-items: center;
 
 nav{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -160,3 +160,28 @@ color: #000;
 
 
 
+.nav_searvice_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav_searvice_items{
+    gap: 8px;
+    padding: 6px 25px;
+    background-color: var(--nav-bk);
+    border-radius: 5px;
+}
+
+.searvice_list{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.searvice_items{
+    gap: 30px;
+
+   /* height: 370px;
+   width: 404px; */
+}
