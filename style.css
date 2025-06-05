@@ -158,15 +158,17 @@ color: #000;
 
 
 
+.searvice{
+    padding:  94px ;
+}
 
-
-.nav_searvice_list{
+.filter_list{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.nav_searvice_items{
+.filter_items{
     gap: 8px;
     padding: 6px 25px;
     background-color: var(--nav-bk);
@@ -181,7 +183,7 @@ justify-content: space-around;
 
 .searvice_items{
     gap: 30px;
-
    /* height: 370px;
    width: 404px; */
+    margin-top: 34PX;
 }
