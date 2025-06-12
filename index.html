@@ -14,77 +14,78 @@
 <body>
     <header>
         <div class="container flex">
-        <nav>
-            <a href="./index.html" id="WebStudio">Web<span class="span_web">Studio</span></a>
+            <nav>
+                <a href="./index.html" id="WebStudio">Web<span class="span_web">Studio</span></a>
+                <ul class="header_list">
+                    <li class="header_items"><a class="header_nav_link" href="./index.html">Студія</a></li>
+                    <li class="header_items"><a class="header_nav_link" href="./portfolio.html">Партфоліо</a></li>
+                    <li class="header_items"><a class="header_nav_link" href="./index.html">Контакти</a></li>
+                </ul>
+            </nav>
             <ul class="header_list">
-                <li class="header_items"><a class="header_nav_link" href="./index.html">Студія</a></li>
-                <li class="header_items"><a class="header_nav_link" href="./portfolio.html">Партфоліо</a></li>
-                <li class="header_items"><a class="header_nav_link" href="./index.html">Контакти</a></li>
+                <li class="header_items"><a class="header_nav_contact"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="header_items"><a class="header_nav_contact" href="tel:+38096111111">+38096111111</a></li>
             </ul>
-        </nav>
-        <ul class="header_list">
-            <li class="header_items"><a class="header_nav_contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="header_items"><a class="header_nav_contact" href="tel:+38096111111">+38096111111</a></li>
-        </ul>
         </div>
-        
+
     </header>
 
     <main>
-        <section class="main_h">
+        <section class="main_photo">
             <div class="container">
-            <h1>Ефективні рішення для<br> вашого бізнесу</h1>
-            <button type="button" id="mybutton">Замовити послугу</button>
+                <h1>Ефективні рішення для<br> вашого бізнесу</h1>
+                <button type="button" id="mybutton">Замовити послугу</button>
             </div>
         </section>
 
         <section>
             <div class="container">
-            <ul class="galery_list">
-                <li class="galery_items">
-                    <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
-                    <p>
-                        Ідейні міркування,і навіть початок<br>
-                        повсякденної роботи з формування позиції.
-                    </p>
-                </li>
+                <ul class="galery_list">
+                    <li class="galery_items">
+                        <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
+                        <p>
+                            Ідейні міркування,і навіть початок<br>
+                            повсякденної роботи з формування позиції.
+                        </p>
+                    </li>
 
-                <li class="galery_items">
-                    <h4>ПУНКТУАЛЬНІСТЬ</h4>
-                    <p>Завдання організації, особливо рамки і<br>
-                        місце навчання кадрів тягне у себе.
-                    </p>
-                </li>
+                    <li class="galery_items">
+                        <h4>ПУНКТУАЛЬНІСТЬ</h4>
+                        <p>Завдання організації, особливо рамки і<br>
+                            місце навчання кадрів тягне у себе.
+                        </p>
+                    </li>
 
-                <li class="galery_items">
-                    <h4>ПЛАНУВАННЯ</h4>
-                    <p>Так само консультація з широким<br>
-                        активом значною мірою зумовлює.
-                    </p>
-                </li>
+                    <li class="galery_items">
+                        <h4>ПЛАНУВАННЯ</h4>
+                        <p>Так само консультація з широким<br>
+                            активом значною мірою зумовлює.
+                        </p>
+                    </li>
 
-                <li class="galery_items">
-                    <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
-                    <p>Значимість цих проблем настільки очевидна,<br>
-                        що реалізація планових завдань.Значимість<br>
-                        цих проблем настільки очевидна, що реалізація<br>
-                        планових завдань.
-                    </p>
-                </li>
+                    <li class="galery_items">
+                        <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+                        <p>Значимість цих проблем настільки очевидна,<br>
+                            що реалізація планових завдань.Значимість<br>
+                            цих проблем настільки очевидна, що реалізація<br>
+                            планових завдань.
+                        </p>
+                    </li>
 
-            </ul>
-        </div>
+                </ul>
+            </div>
         </section>
 
         <section class="works">
             <div class="container">
-            <h2>Чим ми займаємося</h2>
-            <ul class="works_list">
-                <li class="works_items"><img src="./img/IT.jpg" alt="IT"></li>
-                <li class="works_items"><img src="./img/marketing.jpg" alt="marketing"></li>
-                <li class="works_items"><img src="./img/desing.jpg" alt="desing"></li>
-            </ul>
+                <h2>Чим ми займаємося</h2>
+                <ul class="works_list">
+                    <li class="works_items"><img src="./img/IT.jpg" alt="IT"></li>
+                    <li class="works_items"><img src="./img/marketing.jpg" alt="marketing"></li>
+                    <li class="works_items"><img src="./img/desing.jpg" alt="desing"></li>
+                </ul>
             </div>
         </section>
 
@@ -94,26 +95,34 @@
             <ul class="team_list">
                 <li class="team_items">
                     <img src="./img/Ihor.jpg" alt="Ihor">
-                    <h3>Ігор Дем'яненко</h3>
-                    <p>Product Designer</p>
+                    <div class="info_team">
+                        <h3>Ігор Дем'яненко</h3>
+                        <p>Product Designer</p>
+                    </div>
                 </li>
 
                 <li class="team_items">
                     <img src="./img/Olga.jpg" alt="Olga">
-                    <h3>Ольга Рєпіна</h3>
-                    <p>Frontend Developer</p>
+                    <div class="info_team">
+                        <h3>Ольга Рєпіна</h3>
+                        <p>Frontend Developer</p>
+                    </div>
                 </li>
 
                 <li class="team_items">
                     <img src="./img/Mikola.jpg" alt="Mikola">
-                    <h3>Микола Тарасов</h3>
-                    <p>Marketing</p>
+                    <div class="info_team">
+                        <h3>Микола Тарасов</h3>
+                        <p>Marketing</p>
+                    </div>
                 </li>
 
                 <li class="team_items">
                     <img src="./img/Mihailo.jpg" alt="Mihailo">
-                    <h3>Михайло Єрмаков</h3>
-                    <p>UI Designer</p>
+                    <div class="info_team">
+                        <h3>Михайло Єрмаков</h3>
+                        <p>UI Designer</p>
+                    </div>
                 </li>
             </ul>
         </section>

@@ -68,23 +68,24 @@ nav{
 
 
 
-.main_h{
+.main_photo{
+    justify-self: center;
     text-align: center;
-    justify-items: center;
-    width: 100%;
-    
+    width: 1600px;
     padding-top: 7%;
     font-size: 30px;
-    background-color:var(--main-h-bc);
+    /* background-color:var(--main-h-bc); */
     color:var(--main-h-color);
     padding-top: 200px;
     padding-bottom: 210px;
+    background-image: linear-gradient(to right #2F303A 40%, #2F303A 40%) url(./img/team.jpg);
 }
 
 #mybutton{
     background-color:var(--my-button-bc);
     width: 200px;
     height: 40px;
+    border-radius: 4px;
 }
 
 
@@ -122,12 +123,18 @@ h2{
     flex-direction: column;
     padding: 20px;
     line-height: 0.5;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
 .team_list{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 30px;
+}
+
+.info_team{
+    padding: 70px 30px;
 }
 
 footer>a{
@@ -135,6 +142,8 @@ footer>a{
 }
 
 footer{
+    justify-self: center;
+    width: 1600px;
     padding: 20px;
     display: flex;
     flex-direction: column;
