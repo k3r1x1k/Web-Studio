@@ -108,6 +108,7 @@ nav{
 }
 .team{
     background-color:var(--main-h-color);
+
 }
 
 h2{
@@ -163,16 +164,23 @@ color: #000;
 }
 
 .filter_list{
+    gap: 8px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .filter_items{
-    gap: 8px;
+    
     padding: 6px 25px;
     background-color: var(--nav-bk);
     border-radius: 5px;
+}
+
+.filter_items:hover{
+    color:var(--main-h-color);
+    background-color: #2196f3;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
 }
 
 .searvice_list{
@@ -182,8 +190,12 @@ justify-content: space-around;
 }
 
 .searvice_items{
-    gap: 30px;
+    /* gap: 30px; */
    /* height: 370px;
    width: 404px; */
     margin-top: 34PX;
+}
+
+.searvice_items:hover{
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
