@@ -7,6 +7,7 @@
  --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
   --nav-bk: #F5F4FA;
+  --team-color:#F5F4FA;
 }
 
 body{
@@ -78,7 +79,7 @@ nav{
     color:var(--main-h-color);
     padding-top: 200px;
     padding-bottom: 210px;
-    background-image: linear-gradient(to right #2F303A 40%, #2F303A 40%) url(./img/team.jpg);
+    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.29) , rgba(47, 48, 58, 0.29) ), url(./img/team.jpg);
 }
 
 #mybutton{
@@ -108,7 +109,7 @@ nav{
     padding: 20px;
 }
 .team{
-    background-color:var(--main-h-color);
+    background-color:var(--team-color);
 
 }
 
@@ -119,9 +120,10 @@ h2{
 }
 
 .team_items{
+    /* object-fit: contain; */
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    /* padding: 20px; */
     line-height: 0.5;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
@@ -153,7 +155,11 @@ footer{
 
 }
 
-#WebStudio{
+footer > .container > a{
+    color: #ffffff61;
+}
+
+.WebStudio{
     font-family: var(--second-family);
     font-weight: 700;
     font-size: 26px;
@@ -162,11 +168,17 @@ footer{
     margin-top: 16.4px;
 }
 
-.span_web{
+.span_studio{
 color: #000;
 }
 
+.footer_span_studio{
+    color: white;
+}
 
+.span_web{
+    color: var(--my-button-bc);
+}
 
 .searvice{
     padding:  94px ;
