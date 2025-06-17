@@ -99,6 +99,15 @@ nav{
     gap: 30px;
 }
 
+.galery_items > h4{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
 .works_list{
     display: flex;
     justify-content: center;
