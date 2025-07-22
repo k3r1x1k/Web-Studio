@@ -15,6 +15,10 @@ body{
     font-family: var(--font-family);
 }
 
+
+   
+ 
+
 .container {
     width: 1200px;
     padding: 0 15px;
@@ -29,13 +33,13 @@ body{
 
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
 a{
     text-decoration: none;
-    color: var(--a-color);
+     color: currentColor;
 }
 
 
@@ -55,6 +59,7 @@ header{
     font-weight: 500;
 font-size: 14px;
 align-items: center;
+margin-left: 93px;
 }
 
 .header_items{
@@ -112,8 +117,39 @@ text-transform: uppercase;
 color: #212121;
 }
 
+.galery_items::before{
+    content: "";
+    display: block;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.galery_items:nth-child(1)::before{
+    background-image: url(./img/antenna\ 1.svg);
+}
+
+.galery_items:nth-child(2)::before{
+    background-image: url(./img/clock\ 1.svg);
+}
+
+.galery_items:nth-child(3)::before{
+    background-image: url(./img/diagram\ 1.svg);
+}
+
+.galery_items:nth-child(4)::before{
+    background-image: url(./img/astronaut\ 1.svg);
+}
+
+
+
 .works{
 padding-bottom: 94px;
+padding-top: 94px;
 }
 
 .works_list{
@@ -132,16 +168,13 @@ padding-bottom: 94px;
 
 h2{
     font-size: 27px;
-    padding-top: 50px;
+    
     text-align: center;
 }
 
 .team_items{
-    /* object-fit: contain; */
     display: flex;
     flex-direction: column;
-    /* padding: 20px; */
-    line-height: 0.5;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -154,6 +187,25 @@ h2{
 
 .info_team{
     padding: 70px 30px;
+}
+
+.info_team > h3{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+margin-bottom: 10px;
+}
+
+.info_team > p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
 }
 
 footer>a{
@@ -174,6 +226,7 @@ footer{
 
 footer > .container > a{
     color: #ffffff61;
+    display: block;
 }
 
 #WebStudio{
