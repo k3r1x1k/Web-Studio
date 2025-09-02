@@ -37,7 +37,7 @@
         <section class="main_photo">
             <div class="container">
                 <h1>Ефективні рішення для<br> вашого бізнесу</h1>
-                <button type="button" id="mybutton">Замовити послугу</button>
+                <button type="button" id="mybutton" data-modal-open>Замовити послугу</button>
             </div>
         </section>
 
@@ -141,23 +141,23 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal-close-button" data-modal-close></button>
+            <button class="modal-close-button" data-modal-close><svg class="icon-modal-button"><use href="./img/symbol-defs.svg#icon-modal-button"></use></svg></button>
             <p class=" modal-title">Залиште свої дані, ми вам передзвонимо</p>
             <label class="modal-label">
-                <span></span>
-                <input type="text">
+                <span class="modal-span">name</span>
+                <input class="modal-input" type="text" required>
             </label>
              <label class="modal-label">
-                <span></span>
-                <input type="number">
+                <span class="modal-span">number</span>
+                <input class="modal-input" type="tel" required>
             </label>
              <label class="modal-label">
-                <span></span>
-                <input type="email">
+                <span class="modal-span">mail</span>
+                <input class="modal-input" type="email" required>
             </label>
              <label class="modal-label">
-                <span></span>
-                <input type="text">
+                <span class="modal-span">comment</span>
+                <input class="modal-input" type="text" required>
             </label>
         </div>
     </div>
