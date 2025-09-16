@@ -15,7 +15,7 @@ body {
     font-family: var(--font-family);
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -36,6 +36,10 @@ html{
     justify-content: space-between;
     align-items: center;
 
+}
+
+.footer-flex {
+    display: flex;
 }
 
 a {
@@ -93,7 +97,10 @@ nav {
 .main_photo {
     justify-self: center;
     text-align: center;
-    width: 1600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
     padding-top: 7%;
     font-size: 30px;
     /* background-color:var(--main-h-bc); */
@@ -183,9 +190,31 @@ nav {
     flex-direction: row;
 }
 
+.works_items {
+    position: relative;
+}
+
+.works_items-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    width: 370px;
+    height: 70px;
+    background-color: #2f303ac5;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
 .team {
     background-color: var(--team-color);
-
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 h2 {
@@ -200,11 +229,11 @@ h2 {
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
 }
 
-.info_team-title{
+.info_team-title {
     margin-top: 30px;
 }
 
-.icon-wraper{
+.icon-wraper {
     display: flex;
     justify-content: space-around;
     margin-top: 16px;
@@ -212,7 +241,7 @@ h2 {
     padding: 0 32px;
 }
 
-.team-icon{
+.team-icon {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
@@ -221,24 +250,24 @@ h2 {
     transition-timing-function: linear;
 }
 
-.icon-wraper-item{
+.icon-wraper-item {
     display: flex;
     justify-content: center;
     align-items: center;
-border-radius: 50%;
-width: 44px;
-height: 44px;
-/* outline: #000 1px solid; */
-transition-property:  background-color;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    /* outline: #000 1px solid; */
+    transition-property: background-color;
     transition-duration: 100ms;
     transition-timing-function: linear;
 }
 
-.icon-wraper-item:hover{
+.icon-wraper-item:hover {
     background-color: var(--my-button-bc);
 }
 
-.icon-wraper-item:hover > .team-icon{
+.icon-wraper-item:hover>.team-icon {
     fill: #fff;
 }
 
@@ -351,6 +380,15 @@ footer>.container>a {
 
 .searvice_text {
     padding: 24px;
+}
+
+.footer-icon-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 16px; */
+    /* margin-bottom: 30px; */
+    /* padding: 0 32px; */
 }
 
 .backdrop {
