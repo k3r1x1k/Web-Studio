@@ -40,6 +40,8 @@ html {
 
 .footer-flex {
     display: flex;
+    align-items: baseline;
+    gap: 70px;
 }
 
 a {
@@ -297,6 +299,43 @@ h2 {
     color: #757575;
 }
 
+.company{
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
+.company-title{
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+margin-bottom: 50px;
+}
+
+.company_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.company-item {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+}
+
+.company-icon{
+    width: 106px;
+    height: 60px;
+    fill: #BDBDBD;
+}
+
 footer>a {
     color: var(--footer-a);
 }
@@ -309,13 +348,30 @@ footer {
     flex-direction: column;
     background-color: var(--main-h-bc);
     color: var(--main-h-color);
-    line-height: 2;
+    /* line-height: 2; */
 
 }
 
 footer>.container>a {
     color: #ffffff61;
     display: block;
+}
+
+.footer-icons{
+    justify-content: center;
+    flex-direction: column;
+    /* gap: 12px; */
+
+}
+
+.footer-icon-text{
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #fff;
+margin-top: ;
+margin-bottom: 10px;
 }
 
 #WebStudio {
@@ -325,6 +381,14 @@ footer>.container>a {
     letter-spacing: 0.03em;
     color: #2196f3;
     /* margin-top: 16.4px; */
+}
+
+#footer-WebStudio{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    margin-top: 60px;
 }
 
 .span_studio {
