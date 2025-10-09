@@ -370,8 +370,11 @@ font-size: 14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #fff;
-margin-top: ;
 margin-bottom: 10px;
+}
+
+.footer-tel{
+    
 }
 
 #WebStudio {
