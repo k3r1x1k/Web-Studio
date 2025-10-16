@@ -1,0 +1,50 @@
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header {
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header_list {
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    align-items: center;
+    margin-left: 93px;
+}
+
+.header_list a:hover {
+    color: var(--my-button-bc);
+}
+
+
+
+.current {
+    color: var(--my-button-bc);
+}
+
+.header_items {
+    margin: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#WebStudio {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    /* margin-top: 16.4px; */
+}
