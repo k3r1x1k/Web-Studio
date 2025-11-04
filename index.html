@@ -24,6 +24,11 @@
                     <li class="header_items"><a class="header_nav_link" href="./index.html">Контакти</a></li>
                 </ul>
             </nav>
+            <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
             <ul class="header_list">
                 <li class="header_items"><a class="header_nav_contact"
                         href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -325,6 +330,25 @@
             </label>
         </div>
     </div>
+    </section>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg class="modal-svg">
+            <use href="./img/symbol-defs.svg#icon-menu_40px"></use>
+        </svg>
+      
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="" class="link">About</a></li>
+        <li><a href="" class="link">Products</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+        <li><a href="" class="link">Career</a></li>
+      </ul>
+    </div>
+
+  <script src="./js/mobile_menu,js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
