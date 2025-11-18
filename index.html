@@ -110,7 +110,11 @@
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team_list">
                     <li class="team_items">
-                        <img src="./img/Ihor.jpg" alt="Ihor">
+                        <img 
+                         srcset="./img/ihor-desk1x.jpg 270w, ./img/ihor-desk2x.jpg 540w, ./img/ihor-tb1x.jpg 354w, ./img/ihor-tb2x.jpg 708w, ./img/ihor-mob1x.jpg 450w, ./img/ihor-mob2x.jpg 900w"
+                         sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                        src="./img/ihor-mob1x.jpg"
+                         alt="Ihor">
                         <div class="info_team">
                             <h3 class="info_team-title">Ігор Дем'яненко</h3>
                             <p>Product Designer</p>
@@ -234,7 +238,7 @@
         <section class="company">
             <div class="container">
                 <h3 class="company-title">Постійні клієнти</h3>
-                <ul class="company_list">
+                <ul class="company-list">
                     <li class="company-item">
                         <svg class="company-icon">
                             <use href="./img/symbol-defs.svg#icon-Logo-1"></use>
@@ -312,7 +316,7 @@
                 </svg></button>
             <p class=" modal-title">Залиште свої дані, ми вам передзвонимо</p>
             <label class="modal-label">
-                svg
+                
                 <span class="modal-span">name</span>
                 <input class="modal-input" type="text" required>
             </label>
@@ -325,8 +329,8 @@
                 <input class="modal-input" type="email" required>
             </label>
             <label class="modal-label">
-                <span class="modal-span">comment</span>
-                <textarea class="modal-textarea" type="text">()</textarea>
+                <span class="modal-span modal-span-comm">comment</span>
+                <textarea class="modal-textarea" type="text"></textarea>
             </label>
         </div>
     </div>
@@ -347,6 +351,8 @@
         <li><a href="" class="link">Career</a></li>
       </ul>
     </div>
+
+
 
   <script src="./js/mobile_menu,js"></script>
     <script src="./js/modal.js"></script>
