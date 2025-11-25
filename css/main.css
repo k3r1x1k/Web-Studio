@@ -212,19 +212,19 @@ nav {
 }
 
 .galery_items:nth-child(1)::before {
-  background-image: url(../img/antenna\ 1.svg);
+  background-image: url("../img/clock.svg");
 }
 
 .galery_items:nth-child(2)::before {
-  background-image: url(../img/clock\ 1.svg);
+  background-image: url("../img/antenna.svg");
 }
 
 .galery_items:nth-child(3)::before {
-  background-image: url(../img/diagram\ 1.svg);
+  background-image: url("../img/diagram.svg");
 }
 
 .galery_items:nth-child(4)::before {
-  background-image: url(./img/astronaut\ 1.svg);
+  background-image: url("../img/astronaut.svg");
 }
 
 .works {
