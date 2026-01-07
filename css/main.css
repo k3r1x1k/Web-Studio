@@ -649,6 +649,12 @@ footer > .container > a {
   height: 120px;
   outline: none;
   padding: 16px 12px;
+  resize: none;
+}
+
+.modal-span-a {
+  text-decoration: underline;
+  color: #2196f3;
 }
 
 .modal-textarea:focus-within {
